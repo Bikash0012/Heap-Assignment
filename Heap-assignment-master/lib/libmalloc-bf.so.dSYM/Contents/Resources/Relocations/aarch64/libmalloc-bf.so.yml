@@ -1,0 +1,31 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     'lib/libmalloc-bf.so'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _printStatistics, symObjAddr: 0x0, symBinAddr: 0x3618, symSize: 0x144 }
+  - { offset: 0x52, size: 0x8, addend: 0x0, symName: _heapList, symObjAddr: 0x1B58, symBinAddr: 0x8030, symSize: 0x0 }
+  - { offset: 0xDD, size: 0x8, addend: 0x0, symName: _num_mallocs, symObjAddr: 0x1B28, symBinAddr: 0x8000, symSize: 0x0 }
+  - { offset: 0xF9, size: 0x8, addend: 0x0, symName: _num_frees, symObjAddr: 0x1B2C, symBinAddr: 0x8004, symSize: 0x0 }
+  - { offset: 0x10E, size: 0x8, addend: 0x0, symName: _num_reuses, symObjAddr: 0x1B30, symBinAddr: 0x8008, symSize: 0x0 }
+  - { offset: 0x123, size: 0x8, addend: 0x0, symName: _num_grows, symObjAddr: 0x1B34, symBinAddr: 0x800C, symSize: 0x0 }
+  - { offset: 0x138, size: 0x8, addend: 0x0, symName: _num_splits, symObjAddr: 0x1B38, symBinAddr: 0x8010, symSize: 0x0 }
+  - { offset: 0x14D, size: 0x8, addend: 0x0, symName: _num_coalesces, symObjAddr: 0x1B3C, symBinAddr: 0x8014, symSize: 0x0 }
+  - { offset: 0x162, size: 0x8, addend: 0x0, symName: _num_blocks, symObjAddr: 0x1B40, symBinAddr: 0x8018, symSize: 0x0 }
+  - { offset: 0x177, size: 0x8, addend: 0x0, symName: _num_requested, symObjAddr: 0x1B44, symBinAddr: 0x801C, symSize: 0x0 }
+  - { offset: 0x18C, size: 0x8, addend: 0x0, symName: _max_heap, symObjAddr: 0x1B48, symBinAddr: 0x8020, symSize: 0x0 }
+  - { offset: 0x1A1, size: 0x8, addend: 0x0, symName: _atexit_registered, symObjAddr: 0x1B4C, symBinAddr: 0x8024, symSize: 0x0 }
+  - { offset: 0x1B6, size: 0x8, addend: 0x0, symName: _last_used, symObjAddr: 0x1B50, symBinAddr: 0x8028, symSize: 0x0 }
+  - { offset: 0x1C0, size: 0x8, addend: 0x0, symName: _printStatistics, symObjAddr: 0x0, symBinAddr: 0x3618, symSize: 0x144 }
+  - { offset: 0x1C8, size: 0x8, addend: 0x0, symName: _findFreeBlock, symObjAddr: 0x144, symBinAddr: 0x375C, symSize: 0xD4 }
+  - { offset: 0x1DB, size: 0x8, addend: 0x0, symName: _findFreeBlock, symObjAddr: 0x144, symBinAddr: 0x375C, symSize: 0xD4 }
+  - { offset: 0x1E3, size: 0x8, addend: 0x0, symName: _growHeap, symObjAddr: 0x218, symBinAddr: 0x3830, symSize: 0x150 }
+  - { offset: 0x234, size: 0x8, addend: 0x0, symName: _growHeap, symObjAddr: 0x218, symBinAddr: 0x3830, symSize: 0x150 }
+  - { offset: 0x23C, size: 0x8, addend: 0x0, symName: _malloc, symObjAddr: 0x368, symBinAddr: 0x3980, symSize: 0x208 }
+  - { offset: 0x28C, size: 0x8, addend: 0x0, symName: _malloc, symObjAddr: 0x368, symBinAddr: 0x3980, symSize: 0x208 }
+  - { offset: 0x294, size: 0x8, addend: 0x0, symName: _free, symObjAddr: 0x570, symBinAddr: 0x3B88, symSize: 0x184 }
+  - { offset: 0x2F6, size: 0x8, addend: 0x0, symName: _free, symObjAddr: 0x570, symBinAddr: 0x3B88, symSize: 0x184 }
+  - { offset: 0x2FE, size: 0x8, addend: 0x0, symName: _calloc, symObjAddr: 0x6F4, symBinAddr: 0x3D0C, symSize: 0x6C }
+  - { offset: 0x33C, size: 0x8, addend: 0x0, symName: _calloc, symObjAddr: 0x6F4, symBinAddr: 0x3D0C, symSize: 0x6C }
+  - { offset: 0x344, size: 0x8, addend: 0x0, symName: _realloc, symObjAddr: 0x760, symBinAddr: 0x3D78, symSize: 0xF4 }
+  - { offset: 0x394, size: 0x8, addend: 0x0, symName: _realloc, symObjAddr: 0x760, symBinAddr: 0x3D78, symSize: 0xF4 }
+...
